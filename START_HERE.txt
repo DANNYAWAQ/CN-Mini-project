@@ -1,0 +1,15 @@
+START HERE — MINI DNS SERVER + LOCAL WEBSITE (TOPIC 23)
+
+1. Read PACKET_TRACER_STEPS.md.
+2. Open Cisco Packet Tracer.
+3. Add 1 switch, 2 servers, 2 PCs and connect them as described.
+4. Assign addresses from README.md.
+5. Enable DNS and add www.cse.test -> 192.168.10.3.
+6. Enable HTTP on Web_Server and paste website/index.html into its index.html editor.
+7. Set both clients' DNS field to 192.168.10.2.
+8. From a client browse http://www.cse.test and http://192.168.10.3.
+9. Use Simulation mode to observe DNS/HTTP events.
+10. Complete TEST_REPORT.md using actual observations.
+11. Save the Packet Tracer simulation as mini_dns_website.pkt inside this folder.
+
+IMPORTANT: The ZIP does not contain a .pkt binary; construct/save the simulator project locally using the complete setup guide. This is a Packet Tracer-built DNS service, not a custom-coded DNS daemon.
